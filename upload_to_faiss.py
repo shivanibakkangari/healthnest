@@ -11,7 +11,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 # Load dataset
-df = pd.read_csv("/Users/janu/Desktop/healthcare/data/final.csv")
+df = pd.read_csv("final.csv")
 
 # Format as LangChain Documents
 docs = [
