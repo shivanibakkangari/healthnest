@@ -1,0 +1,9 @@
+flask
+flask-cors
+openai
+langchain
+langchain-community
+langchain-openai
+python-dotenv
+faiss-cpu
+pandas
